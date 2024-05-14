@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Jogo de Adivinhação de Palavras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um jogo de adivinhação de palavras desenvolvido em React, onde o jogador tem que adivinhar a palavra correta com base em algumas dicas fornecidas. O jogador tem três tentativas para adivinhar a palavra correta.
 
-## Available Scripts
+## Como Jogar
 
-In the project directory, you can run:
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+3. Navegue até o diretório do projeto no terminal.
+4. Execute `npm install` para instalar as dependências do projeto.
+5. Execute `npm start` para iniciar o jogo no navegador.
+6. Escolha uma categoria (por exemplo: carro, fruta, corpo, computador, programação, alimento).
+7. Leia as dicas fornecidas e tente adivinhar a palavra correta.
+8. Você tem três tentativas para adivinhar a palavra correta.
+9. Se você adivinhar corretamente, parabéns! Se não, tente novamente.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+- `src/`: Contém o código-fonte do projeto.
+  - `components/`: Componentes React.
+  - `data/`: Arquivo com a lista de palavras e dicas.
+  - `App.js`: Componente principal que renderiza o jogo.
+  - `index.js`: Arquivo de entrada do aplicativo React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Lista de Palavras e Dicas
 
-### `npm run build`
+O arquivo `data/wordsList.js` contém uma lista de palavras e suas respectivas dicas organizadas por categorias. Você pode adicionar mais palavras e dicas conforme necessário.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuindo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se você gostaria de contribuir para este projeto, fique à vontade para abrir uma issue ou enviar uma solicitação de pull request. Toda contribuição é bem-vinda!
